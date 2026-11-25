@@ -1,6 +1,8 @@
-# Quick Commerce Infrastructure
+# Infrastructure
 
-Infrastructure workspace for [Quick Commerce](https://github.com/rshdhere/quick-commerce).
+This repository is the shared home for infrastructure across my projects.
 
-- `environments/` contains the development, staging, and production scaffolds.
-- `modules/` contains the AWS, Helm, and Kubernetes module scaffolds.
+- `environments/` groups environment-specific configuration for development, staging, and production.
+- `modules/` groups reusable infrastructure components for AWS, Kubernetes, and Helm.
+
+Keep project-specific configuration separate within each environment. Put components used by multiple projects in the corresponding module directory.

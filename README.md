@@ -2,7 +2,7 @@
 
 This repository is the shared home for infrastructure across my projects.
 
-- `environments/` groups environment-specific configuration for development, staging, and production.
-- `modules/` groups reusable infrastructure components for AWS, Kubernetes, and Helm.
+## Quick Commerce CMS
 
-Keep project-specific configuration separate within each environment. Put components used by multiple projects in the corresponding module directory.
+- [Environments](quick-commerce-cms/environments/) groups development, staging, and production configuration.
+- [Modules](quick-commerce-cms/modules/) contains the AWS, Kubernetes, and Helm module directories.

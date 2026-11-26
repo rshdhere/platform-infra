@@ -1,0 +1,10 @@
+name: terraform plan
+on: workflow_dispatch
+permissions: {}
+jobs:
+  scaffold:
+    # Reserved until Terraform deployment roots exist.
+    if: ${{ false }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Reserved for terraform-plan"
